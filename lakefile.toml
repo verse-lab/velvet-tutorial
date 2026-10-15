@@ -1,0 +1,11 @@
+name = "VelvetTutorial"
+version = "0.1.0"
+defaultTargets = ["VelvetTutorial"]
+
+[[lean_lib]]
+name = "VelvetTutorial"
+
+[[require]]
+name = "velvet"
+git = "https://github.com/verse-lab/velvet.git"
+rev = "v2.0"
